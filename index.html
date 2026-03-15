@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Знатная мука</title>
+
+    <!-- Иконки Remix Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" />
+    <link rel="stylesheet" href="/main.css">
+    <link rel="icon" href="/img/logokling.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <script src="/script.js"></script>
+   
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo" style="display:flex; align-items:center; text-decoration:none;">
+                <img src="/img/logokling.png" alt="Знатная мука" style="height:70px; margin-right:10px; padding: 0" />
+                <span class="logo-text">Знатная мука</span>
+            </a>
+            <nav>
+                <a href="#about">О компании</a>
+                <a href="#product">Продукция</a>
+                <a href="#production">Производство</a>
+                <!-- <a href="#technology">Технологический процесс</a> -->
+                <a href="#contacts">Контакты</a>
+            </nav>
+            <!-- Кнопка меню для мобильных -->
+            <button class="menu-btn" id="menu-toggle" aria-label="Меню">
+                <i class="ri-menu-line"></i>
+            </button>
+        </div>
+        <!-- Мобильное меню -->
+        <div id="mobile-menu">
+            <a href="#about">О компании</a>
+            <a href="#product">Продукция</a>
+            <a href="#production">Производство</a>
+            <!-- <a href="#technology">Технологический процесс</a> -->
+            <a href="#contacts">Контакты</a>
+        </div>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="hero-section">
+        <div>
+            <h1 style="font-family: 'Pacifico', cursive;">Знатная мука — для тех, кто ценит настоящее</h1>
+            
+        </div>
+    </section>
+
+    <!-- <div class="foto100">
+        <img src="/img/ghcghcjghjh5.jpg" alt="">
+       <h1 style="font-family: 'Pacifico', cursive;">Знатная мука — для тех, кто ценит настоящее</h1>
+    </div> -->
+
+    <!-- О компании -->
+    <section id="about">
+        <h2>О нашем предприятии</h2>
+        <div>
+            <p>"Знатная мука"- мукомольное предприятие, представляет собой современный производственный комплекс,
+                оборудованный
+                передовыми машинами российского и импортного производства. Мы занимаемся выпуском продукции высокого
+                качества,
+                используя модернизированные технологии и автоматизированные системы контроля для обеспечения отличных
+                характеристик продукции. Качество продукции обеспечивается профессиональной командой и постоянным
+                совершенствованием технологий производства. </p>
+            <p>Благодаря многолетнему опыту и постоянному улучшению производственных процессов, мы достигаем высоких
+                результатов в эффективности и гарантируем стабильное качество нашей муки, сохраняя при этом
+                привлекательные цены для клиентов.</p>
+            <p>Доставляем продукцию автомобильным и железнодорожным транспортом по России, СНГ и за рубеж.</p>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+            <div class="card" style="flex: 1 1 250px;">
+                <div style="text-align: center; font-size: 2em; margin-bottom: 10px;">⚙️</div>
+                <h3 style="text-align: center;">Современное оборудование</h3>
+                <p>Высокое качество нашей муки поддерживается самым технологичным и производительным
+                    оборудованием от ведущих лидеров отрасли.</p>
+            </div>
+            <div class="card" style="flex: 1 1 250px;">
+                <div style="text-align: center; font-size: 2em; margin-bottom: 10px;">🤖</div>
+                <h3 style="text-align: center;">Автоматизация процессов</h3>
+                <p>Автоматизация и контроль всех процессов, выполняется с помощью передовых компьютерных систем, что
+                    позволяет добиваться правильного выполнения всех технологических циклов и сохранять эффективность
+                    производства.</p>
+            </div>
+            <div class="card" style="flex: 1 1 250px;">
+                <div style="text-align: center; font-size: 2em; margin-bottom: 10px;">✅</div>
+                <h3 style="text-align: center;">Контроль качества</h3>
+                <p>На каждом цикле производства наша продукция тщательно проверяется- методом автоматического контроля
+                    и лабораторными исследованиями муки.</p>
+            </div>
+        </div>
+    </section>
+    <!-- 
+    продукция -->
+    <section id="product">
+        <h2>Наша продукция</h2>
+        <p style="text-align: center;">Реализуем следующие виды продукции</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <a href="#contacts"><img src="/img/cardmuka1.png" alt=""></a>
+                <div class="info">
+                    <a href="#contacts">
+                        <p>Мука пшеничная хлебопекарная в/с</p>
+                    </a>
+                    <a href="#contacts">
+                        <p>Фасовка: 25 кг 50 кг</p>
+                    </a>
+                    <a href="#contacts"><button>Узнать цену</button></a>
+                </div>
+
+            </div>
+            <div class="card">
+                <a href="#contacts"><img src="/img/cardmuka.png" alt=""></a>
+                <div class="info">
+                    <a href="#contacts">
+                        <p>Мука пшеничная хлебопекарная 1 сорт</p>
+                    </a>
+                    <a href="#contacts">
+                        <p>Фасовка: 25 кг 50 кг</p>
+                    </a>
+                    <a href="#contacts"><button>Узнать цену</button></a>
+                </div>
+
+            </div>
+            <div class="card">
+                <a href="#contacts"><img src="/img/cardmuka.png" alt=""></a>
+                <div class="info">
+                    <a href="#contacts">
+                        <p>Мука пшеничная хлебопекарная 2 сорт</p>
+                    </a>
+                    <a href="#contacts">
+                        <p>Фасовка: 25 кг 50 кг</p>
+                    </a>
+                    <a href="#contacts"><button>Узнать цену</button></a>
+                </div>
+
+            </div>
+            <div class="card">
+                <a href="#contacts"><img src="/img/cardmuka.png" alt=""></a>
+                <div class="info">
+                    <a href="#contacts">
+                        <p>Мука пшеничная общего назначения М 55-23</p>
+                    </a>
+                    <a href="#contacts">
+                        <p>Фасовка: 25 кг 50 кг</p>
+                    </a>
+                    <a href="#contacts"><button>Узнать цену</button></a>
+                </div>
+
+            </div>
+            <div class="card">
+                <a href="#contacts"><img src="/img/cardmuka.png" alt=""></a>
+                <div class="info">
+                    <a href="#contacts">
+                        <p>Мука пшеничная общего назначения М 75-23</p>
+                    </a>
+                    <a href="#contacts">
+                        <p>Фасовка: 25 кг 50 кг</p>
+                    </a>
+                    <a href="#contacts"><button>Узнать цену</button></a>
+                </div>
+
+            </div>
+            <div class="card">
+                <a href="#contacts"><img src="/img/cardmuka.png" alt=""></a>
+                <div class="info">
+                    <a href="#">
+                        <p>Отруби пшеничные</p>
+                    </a>
+                    <a href="#contacts">
+                        <p>Фасовка: 25 кг 50 кг</p>
+                    </a>
+                    <a href="#contacts"><button>Узнать цену</button></a>
+                </div>
+
+            </div>
+            <div class="card">
+                <a href="#contacts"><img src="/img/cardmuka.png" alt=""></a>
+                <div class="info">
+                    <a href="#contacts">
+                        <p>Мука пшеничная цельнозерновая хлебопекарная обойная</p>
+                    </a>
+                    <a href="#contacts">
+                        <p>Фасовка: 25 кг 50 кг</p>
+                    </a>
+                    <a href="#contacts"><button>Узнать цену</button></a>
+                </div>
+
+            </div>
+            <div class="card">
+                <a href="#contacts"><img src="/img/cardmuka.png" alt=""></a>
+                <div class="info">
+                    <a href="#contacts">
+                        <p>Мука ржаная хлебопекарная обдирная</p>
+                    </a>
+                    <a href="#contacts">
+                        <p>Фасовка: 25 кг 50 кг</p>
+                    </a>
+                    <a href="#contacts"><button>Узнать цену</button></a>
+                </div>
+
+            </div>
+            <div class="card">
+                <a href="#contacts"><img src="/img/cardmuka.png" alt=""></a>
+                <div class="info">
+                    <a href="#contacts">
+                        <p>Мука овсяная</p>
+                    </a>
+                    <a href="#contacts">
+                        <p>Фасовка: 25 кг 50 кг</p>
+                    </a>
+                    <a href="#contacts"><button>Узнать цену</button></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Этапы производства -->
+<section id="production">
+  <h2>Этапы производства</h2>
+  <div class="grid-wrapper">
+    <!-- Очистка и подготовка зерна -->
+    <div class="grid-item">
+      <div class="text">
+        <h3>1. Очистка и подготовка зерна</h3>
+        <p>Первый и один из ключевых этапов производства муки — это подготовка зерна. В процессе оно
+            подвергается многослойной очистке от посторонних веществ с использованием специальных
+            сепараторов и других устройств.</p>
+        <p>На данном этапе удаляются чужеродные примеси, осуществляется обработка поверхности зерна и его
+            кондиционирование — увлажнение до нужной влажности, необходимой для дальнейшего помола.</p>
+      </div>
+      <div class="image-container">
+        <img src="/img/01.png" alt="Очистка зерна" />
+      </div>
+    </div>
+
+    <!-- Размол зерна -->
+    <div class="grid-item">
+      <div class="text">
+        <h3>2. Размол зерна</h3>
+        <p>На этом этапе очищенное и подготовленное зерно поступает в отделение размола, где оно
+            дробится и измельчается с помощью специальных машин.</p>
+        <p>Процесс помола включает несколько этапов, при которых зерно проходит через различные виды
+            вальцов с постепенно уменьшающимся зазором между ними, что позволяет получить муку высокого
+            качества с нужными характеристиками.</p>
+      </div>
+      <div class="image-container">
+        <img src="/img/02.png" alt="Размол зерна" />
+      </div>
+    </div>
+
+    <!-- Сортировка муки -->
+    <div class="grid-item">
+      <div class="text">
+        <h3>3. Сортировка муки</h3>
+        <p>После размола полученная мука проходит через систему рассевов — специальных сит с разными
+            размерами ячеек, что позволяет разделить ее на фракции по крупности. На этом этапе
+            осуществляется отделение муки различных сортов, а также отрубей и других побочных продуктов.
+            Каждый сорт муки обладает своими характеристиками и предназначен для производства
+            определенных видов изделий.</p>
+      </div>
+      <div class="image-container">
+        <img src="/img/03.png" alt="Сортировка муки" />
+      </div>
+    </div>
+
+    <!-- Контроль качества -->
+    <div class="grid-item">
+      <div class="text">
+        <h3>4. Контроль качества</h3>
+        <p>На каждом этапе производства нашей муки осуществляется строгий контроль. В собственной
+            лаборатории проводятся исследования её физико-химических и хлебопекарных свойств:
+            специалисты контролируют такие показатели, как влажность, белизна, количество и качество
+            клейковины, зольность и другие параметры, влияющие на качество готовой продукции.</p>
+      </div>
+      <div class="image-container">
+        <img src="/img/04.png" alt="Контроль качества" />
+      </div>
+    </div>
+
+    <!-- Фасовка и хранение -->
+    <div class="grid-item">
+      <div class="text">
+        <h3>5. Фасовка и хранение</h3>
+        <p>Готовая продукция фасуется в мешки с помощью автоматических линий, обеспечивая
+            удобство и быстроту. Упакованная мука хранится в специально оборудованных складах с
+            контролируемыми условиями температуры и влажности, что обеспечивает сохранение всех ее
+            качественных характеристик до момента отгрузки потребителю.</p>
+      </div>
+      <div class="image-container">
+        <img src="/img/05.png" alt="Фасовка и хранение" />
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Технологический процесс -->
+    <section id="technology" style="padding: 20px;">
+        <h2 style="text-align: center; margin-bottom: 20px;">Технологический процесс</h2>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div style="width: 50%; padding: 10px;">
+                <h3 style="margin-bottom: 10px;">Производственная линия</h3>
+                <p>Полностью автоматизированная производственная система, оборудованная современными,надежными и
+                    качественными машинами российского и импортного производства. </p>
+                <img src="/img/062.png" alt="Производственная линия"
+                    style="width: 90%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+            </div>
+            <div style="width: 50%; padding: 10px;">
+                <h3 style="margin-bottom: 10px;">Основное оборудование</h3>
+                <p>Вальцовые машины новейшего поколения, сепараторы с полиамидными ситами, энтолейторы, деташеры и
+                    другое современное высокотехнологичное оборудование.
+                </p>
+                <img src="/img/0111.png" alt="Современная мельница"
+                    style="width: 90%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+            </div>
+        </div>
+    </section>
+
+    <section id="automation-systems">
+        <h2>Автоматизированные системы управления</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+            <!-- Карточка 1 -->
+            <div style="flex: 1 1 30%; padding: 10px; box-sizing: border-box;">
+                <div
+                    style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; height: 100%; display: flex; flex-direction: column; align-items: center;">
+                    <img src="/img/Circle-icons-computer.svg.png" alt="Система SCADA"
+                        style="width: 50px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 10px;" />
+                    <div style="width: 100%;">
+                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                            <div
+                                style="width: 30px; height: 30px; background-color: #3b82f6; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">
+                                1</div>
+                            <h3 style="margin-left: 10px;">Система SCADA</h3>
+                        </div>
+                        <p>Проводится мониторинг и диспетчерский контроль объектов. Операторы контролируют все параметры
+                            производственного процесса в настоящем времени и оперативно отслеживают показатели.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Карточка 2 -->
+            <div style="flex: 1 1 30%; padding: 10px; box-sizing: border-box;">
+                <div
+                    style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; height: 100%; display: flex; flex-direction: column; align-items: center;">
+                    <img src="/img/dok-ty.jpg" alt="Система учета и контроля"
+                        style="width: 50px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 10px;" />
+                    <div style="width: 100%;">
+                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                            <div
+                                style="width: 30px; height: 30px; background-color: #3b82f6; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">
+                                2</div>
+                            <h3 style="margin-left: 10px;">Система учета и контроля</h3>
+                        </div>
+                        <p>Обеспечивает необходимый учет сырья и продукции, контроль движения материала и оптимизацию
+                            технологических процессов.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Карточка 3 -->
+            <div style="flex: 1 1 30%; padding: 10px; box-sizing: border-box;">
+                <div
+                    style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; height: 100%; display: flex; flex-direction: column; align-items: center;">
+                    <img src="/img/s-l400.jpg" alt="Лабораторный контроль"
+                        style="width: 50px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 10px;" />
+                    <div style="width: 100%;">
+                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                            <div
+                                style="width: 30px; height: 30px; background-color: #3b82f6; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">
+                                3</div>
+                            <h3 style="margin-left: 10px;">Лабораторный контроль</h3>
+                        </div>
+                        <p>Современные лаборатории позволяют вовремя проводить комплексные исследования качества сырья и
+                            готовой продукции.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div style="margin-bottom: 70px;">
+            <h2>Закупки</h2>
+            <h3 style="text-align: center;">Покупаем сырье</h3>
+        </div>
+        <div class="zakupki" style="display:flex; gap:20px;">
+            <div class="zakupkitext" style="flex:1;">
+                <p>Наша компания на постоянной основе покупает <b>пшеницу продовольственную</b> 3-4 класса:
+                    · Натура от 750 г/л · Клейковина не ниже 20% · ИДК 75-90 ед. · Влажность до 15,0% · ЧП от 200 сек ·
+                    Зерновая
+                    примесь до 5% · Сорная примесь до 2% · Белизна в зерне не менее 10 ед.</p>
+
+                <p><b>Pожь продовольственную</b>:
+                    · Натура от 680 г/л · Влажность до 15,0% · ЧП от 180 сек · Зерновая примесь до 5% · Сорная примесь
+                    до 2%</p>
+
+                <p>По вопросам сотрудничества звоните или пишите на эл.почту.</p>
+            </div>
+            <div class="photos" style="flex:1; display:flex; align-items:center; justify-content:center;">
+                <img id="fotozakupki" src="/img/zakupki.png" alt="" style="max-width:100%; height:auto;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Обратная форма -->
+    <!-- Форма обратной связи -->
+
+
+    <!-- Основной контейнер для двух колонок -->
+     <h2>Контактная информация <span style="font-size:28px;">🤝</span></h2>
+    <div class="contactmap" style="display:flex; gap:20px; align-items:flex-start;">
+        <!-- Блок с контактами -->
+        <section id="contacts" style="flex:1;">
+            <!-- <h2>Контактная информация <span style="font-size:28px;">🤝</span></h2> -->
+            <div
+                style="background:#fff; padding:20px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1); max-width:100%;">
+                <h3>Наши контакты</h3>
+
+                <div style="margin-bottom:20px;">
+                    <div style="display:flex; align-items:flex-start;">
+                        <div
+                            style="width:40px; height:40px; background:#3b82f6; color:#fff; display:flex; align-items:center; justify-content:center; border-radius:50%; font-size:20px;">
+                            🏠</div>
+                        <div style="margin-left:10px;">
+                            <h4>Адрес:</h4>
+                            <p>г. Омск ул.Мельничная 100 корпус 5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-bottom:20px;">
+                    <div style="display:flex; align-items:flex-start;">
+                        <div
+                            style="width:40px; height:40px; background:#3b82f6; color:#fff; display:flex; align-items:center; justify-content:center; border-radius:50%; font-size:20px;">
+                            📞</div>
+                        <div style="margin-left:10px;">
+                            <h4>Телефон:</h4>
+                            <a href="tel:+70000000000">+7 00000000000</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-bottom:20px;">
+                    <div style="display:flex; align-items:flex-start;">
+                        <div
+                            style="width:40px; height:40px; background:#3b82f6; color:#fff; display:flex; align-items:center; justify-content:center; border-radius:50%; font-size:20px;">
+                            ✉️</div>
+                        <div style="margin-left:10px;">
+                            <h4>Email:</h4>
+                            <a href="mailto:znatnaya-muka@gmail.com">znatnaya-muka@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>Телеграм:</h4>
+                    <a href="https://t.me/blason77" target="_blank">
+                        <img src="/img/tg.png" alt="telegram"
+                            style="vertical-align: middle; width:35px; margin-right:10px;">
+                    </a>
+                </div>
+
+                <h3 style="margin-top:50px;">Часы работы</h3>
+                <p><strong>Офис:</strong> Понедельник - Пятница: 9:00 - 18:00 часов</p>
+            </div>
+        </section>
+
+        <!-- Блок с картой -->
+        <div class="map" style="flex:1;">
+            <div style="width:100%; height:400px; padding-top:150px;">
+                <!-- iframe с картой Google Maps -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2289.276773923503!2d73.37445342664188!3d54.98578117809645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43aafe1af3f3dda1%3A0x474609d7ff2e19d4!2z0JTRgNGD0LfRjNGP!5e0!3m2!1sru!2sru!4v1771071782102!5m2!1sru!2sru"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    
+    <div class="iframemedia">
+        <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2289.276773923503!2d73.37445342664188!3d54.98578117809645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43aafe1af3f3dda1%3A0x474609d7ff2e19d4!2z0JTRgNGD0LfRjNGP!5e0!3m2!1sru!2sru!4v1771071782102!5m2!1sru!2sru"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- Подвал -->
+    <footer class="footer">
+        <div style="max-width:1200px; margin:auto; padding:20px; color:#ccc; text-align:center;">
+            <a href="#"><img src="/img/logokling.png" alt="Знатная мука" style="height:80px; margin-bottom:10px;" /></a>
+            <div style="margin-bottom:10px;">
+                <a href="#about">О компании</a>
+                <a href="#production">Производство</a>
+                <a href="#technology">Технологический процесс</a>
+                <a href="#contacts">Контакты</a>
+            </div>
+            <div style="border-top:1px solid #444; padding-top:10px;">
+                <p style="color: black;">2011-2025 год. "Знатная мука". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
