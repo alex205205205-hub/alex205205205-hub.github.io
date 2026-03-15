@@ -130,7 +130,7 @@ h2 {
 }
 
 nav a:hover {
-  background-color: #dbd8d8; /* цвет подсветки при наведении, можно изменить */
+  background-color: #dbd8d8; 
 }
 
 .about, .production, .technology, .contacts {
