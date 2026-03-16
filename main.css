@@ -404,48 +404,5 @@ nav a:hover {
 
 
 
-/* видео */
-
-.bgvideo {
-    height: 70vh; 
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
 
 
-
-
-
-.bgvideo video {
-    height: 70vh; 
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    z-index: 1;
-}
-
-.effect {
-    height: 70vh; 
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    z-index: 2;
-    background-color: rgba(0, 0, 0, 0.192);
-}
-
-.video-text {
-    position: absolute;
-    top: 10%; /* или любое предпочтительное значение */
-    right: 5%; /* или любое предпочтительное значение */
-    color: rgb(17, 17, 17);
-    z-index: 3; /* выше слоя видео и эффекта */
-    font-family: 'Pacifico';
-    font-size: 20px;
-}
