@@ -6,6 +6,7 @@
 <style>
   .product-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 20px; /* отступ между изображением и текстом */
   }
@@ -16,6 +17,14 @@
   h1 {
     text-align: center; /* центрируем заголовок */
   }
+  @media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+}    
 </style>
 </head>
 <body>
