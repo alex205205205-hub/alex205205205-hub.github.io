@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<title>Описание товара</title>
+<style>
+  .product-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* отступ между изображением и текстом */
+  }
+  #product-image {
+    max-width: 500px;
+    height: auto;
+  }
+  h1 {
+    text-align: center; /* центрируем заголовок */
+  }
+</style>
+</head>
+<body>
+<h1 id="product-title"></h1>
+<div class="product-container">
+  <img id="product-image" src="" alt="" />
+  <p id="product-description"></p>
+</div>
+
+    <script>
+        const products = {
+            1: {
+                name: "Мука пшеничная хлебопекарная в/с",
+                description: `Это хлебопекарная мука высшего сорта Это хлебопекарная мука высшего сортаЭто хлебопекарная мука высшего сортаЭто хлебопекарная мука высшего сортаЭто хлебопекарная мука высшего сортаЭто хлебопекарная мука высшего сортаЭто хлебопекарная мука высшего сорта, идеально подходит для выпечки.`,
+                image: "/img/cardmuka1.png"
+            },
+            2: {
+                name: "Мука пшеничная хлебопекарная 1 сорт",
+                description: "Мука пшеничная хлебопекарная 1 сортМука пшеничная хлебопекарная 1 сортМука пшеничная хлебопекарная 1 сортМука пшеничная хлебопекарная 1 сортМука пшеничная хлебопекарная 1 сортМука пшеничная хлебопекарная 1 сортМука пшеничная хлебопекарная 1 сортМука пшеничная хлебопекарная 1 сортМука пшеничная хлебопекарная 1 сортМука пшеничная хлебопекарная 1 сортМука пшеничная хлебопекарная 1 сортМука пшеничная хлебопекарная 1 сортМука пшеничная хлебопекарная 1 сортМука пшеничная хлебопекарная 1 сорт.",
+                image: "/img/cardmuka1.png"
+            },
+            3: {
+                name: "Мука пшеничная хлебопекарная 2 сорт",
+                description: `Это Мука пшеничная хлебопекарная 2 сортМука пшеничная хлебопекарная 2 сортМука пшеничная хлебопекарная 2 сортМука пшеничная хлебопекарная 2 сортМука пшеничная хлебопекарная 2 сортМука пшеничная хлебопекарная 2 сортМука пшеничная хлебопекарная 2 сортМука пшеничная хлебопекарная 2 сортМука пшеничная хлебопекарная 2 сорт Это хлебопекарная мука высшего сортаЭто хлебопекарная мука высшего сортаЭто хлебопекарная мука высшего сортаЭто хлебопекарная мука высшего сортаЭто хлебопекарная мука высшего сортаЭто хлебопекарная мука высшего сорта, идеально подходит для выпечки.`,
+                image: "/img/cardmuka1.png"
+            },
+            // добавьте остальные товары по мере необходимости
+        };
+        
+
+        // Получаем параметр id из URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get('id');
+
+        if (id && products[id]) {
+            document.getElementById('product-title').textContent = products[id].name;
+            document.getElementById('product-description').textContent = products[id].description;
+            document.getElementById('product-image').src = products[id].image;
+            document.getElementById('product-image').alt = products[id].name;
+        } else {
+            document.getElementById('product-title').textContent = "Товар не найден";
+            document.getElementById('product-description').textContent = "";
+            document.getElementById('product-image').src = "";
+        }
+    </script>
+</body>
+
+</html>
