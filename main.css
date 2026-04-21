@@ -445,7 +445,7 @@ nav a:hover {
 
 .video-text {
     position: absolute;
-    top: 10%; 
+    top: 20%; 
     right: 5%; 
     color: rgb(17, 17, 17);
     z-index: 3; 
