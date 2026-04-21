@@ -455,6 +455,6 @@ nav a:hover {
 
 @media (max-width: 768px) {
   .video-text h1 {
-    margin-left: 30px;
+    margin-right: 30px;
   }
 }
