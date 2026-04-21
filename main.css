@@ -115,8 +115,8 @@ body {
 
 
 section {
-  /* padding: 60px 20px; */
-  max-width: 1200px;
+  padding-top: 60px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 
