@@ -456,7 +456,7 @@ nav a:hover {
 /* для экранов шириной больше 768px — сдвигаем чуть правее */
 @media (min-width: 769px) {
   .logo-text>h1 {
-    margin-left: 50px; /* или любое другое значение по вашему желанию */
+    text-align: center;
       
   }
 }
