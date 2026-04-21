@@ -457,5 +457,6 @@ nav a:hover {
 @media (min-width: 769px) {
   .logo-text {
     margin-left: 30px; /* или любое другое значение по вашему желанию */
+      padding-left: 20px;
   }
 }
