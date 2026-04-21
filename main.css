@@ -418,7 +418,7 @@ nav a:hover {
 /* видео */
 
 .bgvideo {
-    height: 90vh; 
+    height: 100vh; 
     width: 100%;
     position: relative;
     display: flex;
@@ -431,7 +431,7 @@ nav a:hover {
 
 
 .bgvideo video {
-    height: 90vh; 
+    height: 100vh; 
     width: 100%;
     position: absolute;
     top: 0;
