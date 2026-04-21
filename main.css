@@ -153,6 +153,7 @@ nav a:hover {
   margin-bottom: 20px;
   transition: box-shadow 0.3s;
   border: 2px solid rgba(107, 106, 106, 0.2);
+  background: linear-gradient(135deg, #f5deb3, #ffffff);
 }
 
 .card:hover {
