@@ -154,10 +154,11 @@ nav a:hover {
   transition: box-shadow 0.3s;
   border: 2px solid rgba(107, 106, 106, 0.2);
   background: linear-gradient(135deg, #f5deb3, #ffffff);
+  transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.4);
 }
 
 .footer {
