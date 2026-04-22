@@ -481,3 +481,16 @@ nav a:hover {
    
   }
 }
+
+.tehnology {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+@media (max-width: 768px) {
+    .tehnology {
+      flex-wrap: wrap;
+      margin: 0 auto;
+    }
+    }
