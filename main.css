@@ -464,8 +464,11 @@ nav a:hover {
 /* Медиа-запрос для мобильных устройств */
 @media (max-width: 768px) {
   .video-text {
-    top: 35%;
-    left: 40%;
+    top: 15%;
+    left: 62%;
+    position: absolute;
+   font-size: 0.6em;
+   white-space: nowrap;
     transform: translate(-50%, -50%);
     /* Центрирование текста на мобильных */
     display: flex;
@@ -475,11 +478,6 @@ nav a:hover {
   }
   .video-text h1 {
     font-size: 1.5em; /* Можно подстроить размер заголовка */
-  }
-}
-
-@media (max-width: 768px) {
-  .video-text h1 {
-    margin-right: 30px;
+   
   }
 }
