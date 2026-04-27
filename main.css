@@ -161,6 +161,16 @@ nav a:hover {
   box-shadow: 0 12px 30px rgba(0,0,0,0.4);
 }
 
+.card1 {
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  
+  border: 2px solid rgba(107, 106, 106, 0.2);
+  background: linear-gradient(135deg, #f5deb3, #ffffff);
+  transition: box-shadow 0.3s ease;
+}
 
 .footer {
   background-color: #dee4f0;
