@@ -13,7 +13,7 @@ html {
   header {
     position: fixed;
     width: 100%;
-    background-color: #dee4f0;
+    background: #dee4f0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     z-index: 50;
   }
@@ -168,7 +168,7 @@ nav a:hover {
   margin-bottom: 20px;
   background-color: #dee4f0;
   border: 2px solid rgba(107, 106, 106, 0.2);
-  background: linear-gradient(135deg, #f5deb3, #ffffff);
+  
   transition: box-shadow 0.3s ease;
 }
 
