@@ -26,7 +26,7 @@
     }
 
     #product-image {
-      width: 30%;
+      width: 50%;
       max-width: 500px;
       height: auto;
       display: block;
@@ -34,13 +34,13 @@
 
     h1 {
       text-align: center;
-      font-size: 20px;
+      font-size: 14px;
       margin-top: 20px;
       padding: 0 15px;
     }
 
     p {
-      font-size: 16px;
+      font-size: 10px;
       line-height: 1.6;
       color: #333;
       max-width: 800px;
@@ -55,7 +55,7 @@
 
       /* УВЕЛИЧИВАЕМ заголовок на мобильных */
       h1 {
-        font-size: 32px; 
+        font-size: 32px;
       }
 
       /* УВЕЛИЧИВАЕМ текст описания на мобильных */
@@ -65,8 +65,8 @@
 
       /* УВЕЛИЧИВАЕМ изображение, чтобы оно занимало почти всю ширину экрана */
       #product-image {
-        max-width: 100%; 
-        width: 95%; 
+        max-width: 100%;
+        width: 95%;
       }
     }
   </style>
@@ -77,6 +77,10 @@
   <div class="product-container">
     <img id="product-image" src="" alt="" />
     <p id="product-description"></p>
+    <a href="index.html#contacts"
+      style="display:inline-block; padding:12px 24px; background-color:#ff5733; color:#fff; font-size:16px; font-family:sans-serif; text-decoration:none; border-radius:8px; box-shadow:0 4px 6px rgba(0,0,0,0.2); transition:background-color 0.3s, transform 0.2s;"
+      onmouseover="this.style.backgroundColor='#e14b2b'; this.style.transform='scale(1.05)';"
+      onmouseout="this.style.backgroundColor='#ff5733'; this.style.transform='scale(1)';">Заказать</a>
   </div>
 
   <script>
@@ -113,4 +117,5 @@
     }
   </script>
 </body>
+
 </html>
