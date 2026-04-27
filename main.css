@@ -13,7 +13,7 @@ html {
   header {
     position: fixed;
     width: 100%;
-    background: #dee4f0;
+    background-color: #f3f5f8;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     z-index: 50;
   }
