@@ -117,7 +117,11 @@ html {
 }
 
 
-
+.hero-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), transparent);
+}
 
 section {
   padding: 60px 20px;
